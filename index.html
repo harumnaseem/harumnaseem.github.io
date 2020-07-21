@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+        <!-- adding Global Site Tag (gtag.js) -->
+        <script async src = "https://www.googletagmanager.com/gtag/js?id=UA-99103319-1"></script>
+        
+        <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date())
+            gtag('config', 'UA-99103319-1')
+        </script>
+    </head>
+
     <body>
-        <h1>Hello to my world =)</h1>
-        <p>This is hosted with GitHub Pages. =)</p>
+        <header>
+            <div id = "mobile-menu-close">
+                <span> close </span>
+                <i class = "fa fa-times" aria-hidden = "true"></i>
+            </div>
+
+            <ul id = "menu">
+                <li>
+                    <a href = "#about"> About </a>
+                </li>
+                
+                <li>
+                    <a href = "#education">Education</a>
+                </li>
+
+                <li>
+                    <a href = "#experience">Experience</a>
+                </li>
+
+                <li>
+                    <a href= "#projects"> Projects </a>
+                </li>
+
+                <li>
+                    <a href = "#skills"> Skills </a>
+                </li>
+            </ul>
+            
+        </header>
+        
     </body>
 </html>
