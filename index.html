@@ -16,9 +16,11 @@
         <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
 
-
-        <!-- adding Global Site Tag (gtag.js) -->
         <script async src = "https://www.googletagmanager.com/gtag/js?id=UA-99103319-1"></script>
         
         <script>
@@ -33,7 +35,57 @@
     </head>
 
     <body>
-        <header>
+        <header id="home">
+
+            <nav id="nav-wrap">
+      
+               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      
+               <ul id="nav" class="nav">
+                  <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                  <li><a class="smoothscroll" href="#about">About</a></li>
+                   <li><a class="smoothscroll" href="#education">Education</a></li>
+                  <li><a class="smoothscroll" href="#experience">Experience</a></li>
+                  <li><a class="smoothscroll" href="#projects">Projects</a></li>
+                  <li><a class="smoothscroll" href="#skills">Skills</a></li>
+               </ul> <!-- end #nav -->
+      
+            </nav> <!-- end #nav-wrap -->
+      
+           
+            <!-- </div> -->
+                <!-- <div id="no-particles-js">
+                    <div id="no-lead-content">
+                        <h1> Harum Naseem </h1>
+                        <h2> CS Senior </h2>
+                        <center>
+                            <h4>
+                                <a href="https://drive.google.com/file/d/1CPaeNzMEX0eUBdx_KQ1PiLVe-Je32Lx5/view?usp=sharing" class="btn-rounded-white">
+                                    <i class="fa fa-download" aria-hidden="true"></i> View Resume
+                                </a>
+                                &nbsp; &nbsp; &nbsp;
+                                <a href="https://www.linkedin.com/in/harum-naseem/" class="btn-rounded-white">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i> View LinkedIn
+                                </a>
+                                &nbsp; &nbsp; &nbsp;
+                                <a href="https://github.com/harumnaseem" class="btn-rounded-white">
+                                    <i class="fa fa-github" aria-hidden="true"></i> View GitHub
+                                </a>
+                            </h4>
+                        </center>
+                    </div>
+                </div> -->
+            
+      
+            <p class="scrolldown">
+               <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+            </p>
+      
+        </header> 
+        
+
+        <!-- <header id = "home">
             <div id = "mobile-menu-close">
                 <span> close </span>
                 <i class = "fa fa-times" aria-hidden = "true"></i>
@@ -60,60 +112,16 @@
                     <a href = "#skills"> Skills </a>
                 </li>
                 
-                <!-- <li>
+                <li>
                     <a href = "#contact"> Contact </a>
                 </li> -->
-            </ul>
+            <!-- </ul> -->
             
-        </header>
+        <!-- </header> -->
         
-        <div id = "lead">
-            <div id = "particples-js">
-                <div id = "lead-content">
-                    <h1> Harum Naseem </h1>
-                    <h2> CS Senior </h2>
-                    <center>
-                        <h4>
-                            <a href="https://drive.google.com/file/d/1CPaeNzMEX0eUBdx_KQ1PiLVe-Je32Lx5/view?usp=sharing" class="btn-rounded-white">
-                                <i class="fa fa-download" aria-hidden="true"></i> View Resume
-                            </a>
-                            &nbsp; &nbsp; &nbsp;
-                            <a href="https://www.linkedin.com/in/harum-naseem/" class="btn-rounded-white">
-                                <i class="fa fa-linkedin-square" aria-hidden="true"></i> View LinkedIn
-                            </a>
-                            &nbsp; &nbsp; &nbsp;
-                            <a href="https://github.com/harumnaseem" class="btn-rounded-white">
-                                <i class="fa fa-github" aria-hidden="true"></i> View GitHub
-                            </a>
-                        </h4>
-                    </center>
-                </div>
-            </div>
+        
 
-            <!-- <div id="no-particles-js">
-                <div id="no-lead-content">
-                    <h1> Harum Naseem </h1>
-                    <h2> CS Senior </h2>
-                    <center>
-                        <h4>
-                            <a href="https://drive.google.com/file/d/1CPaeNzMEX0eUBdx_KQ1PiLVe-Je32Lx5/view?usp=sharing" class="btn-rounded-white">
-                                <i class="fa fa-download" aria-hidden="true"></i> View Resume
-                            </a>
-                            &nbsp; &nbsp; &nbsp;
-                            <a href="https://www.linkedin.com/in/harum-naseem/" class="btn-rounded-white">
-                                <i class="fa fa-linkedin-square" aria-hidden="true"></i> View LinkedIn
-                            </a>
-                            &nbsp; &nbsp; &nbsp;
-                            <a href="https://github.com/harumnaseem" class="btn-rounded-white">
-                                <i class="fa fa-github" aria-hidden="true"></i> View GitHub
-                            </a>
-                        </h4>
-                    </center>
-                </div>
-            </div> -->
-        </div>
-
-        <div id="lead-overlay"></div>
+        <!-- <div id="lead-overlay">
             <div id="lead-down">
                 <p>
                     <span>
@@ -121,7 +129,7 @@
                     </span>
                 </p>
             </div>
-
+        </div> -->
         <div id="about">
             <div class="container">
                 <div class="row">
@@ -140,6 +148,22 @@
                             I'm interested in Computer Vision, Network Security, Machine Learning and Deep Learning. 
                         </p>
                     </div>
+
+                    <center>
+                        <h4>
+                            <a href="https://drive.google.com/file/d/1CPaeNzMEX0eUBdx_KQ1PiLVe-Je32Lx5/view?usp=sharing" class="btn-rounded-white">
+                                <i class="fa fa-download" aria-hidden="true"></i> View Resume
+                            </a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://www.linkedin.com/in/harum-naseem/" class="btn-rounded-white">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i> View LinkedIn
+                            </a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="https://github.com/harumnaseem" class="btn-rounded-white">
+                                <i class="fa fa-github" aria-hidden="true"></i> View GitHub
+                            </a>
+                        </h4>
+                    </center>
                 </div>
             </div>
         </div>
@@ -210,10 +234,9 @@
 
                         <div class="project-info">
                             <h3> EMS Direct </h3>
-                            <h4> Flutter based database driven mobile application for Emergency Medical Services (EMS) LUMS. </h4>
+                            <h4> Flutter based mobile application for Emergency Medical Services (EMS) LUMS. </h4>
                             <p>
-                                The primary purpose of this application was to enable efficient assignment of MFRs to emergencies on-campus, based on accessibility, duty hours and location, while also provide with an automated system to carry out some of the routine tasks in a more organised manner.
-                                This was made for the Software Engineering course.
+                                The primary purpose of this application was to enable efficient assignment of MFRs to emergencies on-campus, based on accessibility, duty hours and location, while also providing an automated system to carry out some of the routine tasks in a more organised manner.
                             </p>
                             <a href = "https://github.com/HannanNaeem/emsdirect"> View Project </a>
                         </div>
@@ -229,7 +252,7 @@
                             <h4> Database driven Airport Management system which includes both user and admin interface. </h4>
                             <p>
                                 The primary purpose of this system was to provide a user interface to both the users and admin to carry out their tasks such as booking flights, checking for plane capacities, passsenger and plane histories etc.  
-                                This was made for the Databases course.
+                                
                             </p>
                             <a href = "https://github.com/harumnaseem/Airport-Database-Managment-System"> View Project </a>
                         </div>
@@ -246,13 +269,9 @@
                             <p>
                                 The dataset was chosen on Suicide Rates between the years 1985–2016, available on Kaggle, to 
                                 draw inferences and develop models.
-                                The aim of our project was to find 
-                                and explore different sort of trends and correlations that could help us 
-                                understand the changing patterns of suicide and in different countries. 
                                 Through our analysis, we wanted to be able to identify the factors that 
                                 may be related to suicide rates across a socioeconomic spectrum and 
                                 can help organizations improve suicide prevention methods.
-                                This was done by my group as part of the Data Science course final project.
                             </p>
                             <a href = "https://github.com/harumnaseem/Suicide-Rates-Overview"> View Project </a>
                         </div>
